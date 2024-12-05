@@ -1,0 +1,577 @@
+{
+  "apple-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2022-08-26",
+        "ratio": "4:1",
+        "preSplitPrice": 174.33,
+        "postSplitPrice": 43.58
+      },
+      {
+        "date": "2014-06-09",
+        "ratio": "7:1",
+        "preSplitPrice": 92.7,
+        "postSplitPrice": 13.25
+      },
+      {
+        "date": "2005-02-28",
+        "ratio": "2:1",
+        "preSplitPrice": 44.86,
+        "postSplitPrice": 22.43
+      },
+      {
+        "date": "2000-06-21",
+        "ratio": "2:1",
+        "preSplitPrice": 55.59,
+        "postSplitPrice": 27.8
+      },
+      {
+        "date": "1987-06-16",
+        "ratio": "2:1",
+        "preSplitPrice": 39.38,
+        "postSplitPrice": 19.69
+      }
+    ],
+    "source": "Apple Inc. Investor Relations, Yahoo Finance Historical Data"
+  },
+  "microsoft-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2003-02-18",
+        "ratio": "2:1",
+        "preSplitPrice": 25.52,
+        "postSplitPrice": 12.76
+      },
+      {
+        "date": "2000-03-29",
+        "ratio": "2:1",
+        "preSplitPrice": 58.72,
+        "postSplitPrice": 29.36
+      },
+      {
+        "date": "1999-03-26",
+        "ratio": "2:1",
+        "preSplitPrice": 93.97,
+        "postSplitPrice": 46.98
+      },
+      {
+        "date": "1996-12-09",
+        "ratio": "2:1",
+        "preSplitPrice": 39.44,
+        "postSplitPrice": 19.72
+      },
+      {
+        "date": "1994-06-23",
+        "ratio": "2:1",
+        "preSplitPrice": 27.88,
+        "postSplitPrice": 13.94
+      }
+    ],
+    "source": "Microsoft Corporation Investor Relations, S&P Capital IQ"
+  },
+  "alphabet-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2022-07-15",
+        "ratio": "20:1",
+        "preSplitPrice": 2255.99,
+        "postSplitPrice": 112.8
+      }
+    ],
+    "source": "Alphabet Inc. Investor Relations, Bloomberg Historical Data"
+  },
+  "amazon-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2022-06-06",
+        "ratio": "20:1",
+        "preSplitPrice": 2447.0,
+        "postSplitPrice": 122.35
+      },
+      {
+        "date": "1999-01-05",
+        "ratio": "2:1",
+        "preSplitPrice": 17.44,
+        "postSplitPrice": 8.72
+      }
+    ],
+    "source": "Amazon.com Inc. Investor Relations, NASDAQ Official Records"
+  },
+  "tesla-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2022-08-25",
+        "ratio": "3:1",
+        "preSplitPrice": 891.0,
+        "postSplitPrice": 297.0
+      },
+      {
+        "date": "2020-08-31",
+        "ratio": "5:1",
+        "preSplitPrice": 2211.15,
+        "postSplitPrice": 442.23
+      }
+    ],
+    "source": "Tesla Inc. Investor Relations, S&P Global Market Intelligence"
+  },
+  "boeing-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "1997-02-28",
+        "ratio": "2:1",
+        "preSplitPrice": 48.5,
+        "postSplitPrice": 24.25
+      },
+      {
+        "date": "1994-02-25",
+        "ratio": "2:1",
+        "preSplitPrice": 44.63,
+        "postSplitPrice": 22.31
+      },
+      {
+        "date": "1989-05-16",
+        "ratio": "2:1",
+        "preSplitPrice": 31.88,
+        "postSplitPrice": 15.94
+      }
+    ],
+    "source": "Boeing Company Investor Relations, NYSE Historical Archives"
+  },
+  "general-motors-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2001-04-02",
+        "ratio": "2:1",
+        "preSplitPrice": 66.5,
+        "postSplitPrice": 33.25
+      },
+      {
+        "date": "1999-04-01",
+        "ratio": "2:1",
+        "preSplitPrice": 93.63,
+        "postSplitPrice": 46.81
+      },
+      {
+        "date": "1989-06-12",
+        "ratio": "2:1",
+        "preSplitPrice": 34.13,
+        "postSplitPrice": 17.06
+      }
+    ],
+    "source": "General Motors Company Investor Relations, Wall Street Journal Historical Data"
+  },
+  "nvidia-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2021-07-20",
+        "ratio": "4:1",
+        "preSplitPrice": 200.16,
+        "postSplitPrice": 50.04
+      },
+      {
+        "date": "2007-04-17",
+        "ratio": "2:1",
+        "preSplitPrice": 36.4,
+        "postSplitPrice": 18.2
+      },
+      {
+        "date": "2002-09-16",
+        "ratio": "2:1",
+        "preSplitPrice": 19.69,
+        "postSplitPrice": 9.85
+      }
+    ],
+    "source": "NVIDIA Corporation Investor Relations, Morningstar Historical Pricing"
+  },
+  "bank-of-america-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2004-04-02",
+        "ratio": "2:1",
+        "preSplitPrice": 52.48,
+        "postSplitPrice": 26.24
+      },
+      {
+        "date": "2000-04-04",
+        "ratio": "2:1",
+        "preSplitPrice": 58.13,
+        "postSplitPrice": 29.07
+      },
+      {
+        "date": "1997-06-11",
+        "ratio": "2:1",
+        "preSplitPrice": 34.5,
+        "postSplitPrice": 17.25
+      }
+    ],
+    "source": "Bank of America Corporation Investor Relations, S&P Capital IQ"
+  },
+  "disney-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2023-08-23",
+        "ratio": "1:1",
+        "preSplitPrice": 84.5,
+        "postSplitPrice": 84.5
+      },
+      {
+        "date": "2004-06-18",
+        "ratio": "2:1",
+        "preSplitPrice": 25.93,
+        "postSplitPrice": 12.97
+      },
+      {
+        "date": "2000-04-28",
+        "ratio": "4:1",
+        "preSplitPrice": 43.87,
+        "postSplitPrice": 10.97
+      },
+      {
+        "date": "1998-06-19",
+        "ratio": "3:1",
+        "preSplitPrice": 36.5,
+        "postSplitPrice": 12.17
+      }
+    ],
+    "source": "Walt Disney Company Investor Relations, Bloomberg Historical Data"
+  },
+  "intel-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2000-03-16",
+        "ratio": "2:1",
+        "preSplitPrice": 74.59,
+        "postSplitPrice": 37.3
+      },
+      {
+        "date": "1998-05-26",
+        "ratio": "2:1",
+        "preSplitPrice": 38.47,
+        "postSplitPrice": 19.24
+      },
+      {
+        "date": "1994-11-14",
+        "ratio": "2:1",
+        "preSplitPrice": 22.38,
+        "postSplitPrice": 11.19
+      },
+      {
+        "date": "1992-06-01",
+        "ratio": "3:2",
+        "preSplitPrice": 15.63,
+        "postSplitPrice": 10.42
+      }
+    ],
+    "source": "Intel Corporation Investor Relations, NASDAQ Historical Records"
+  },
+  "cisco-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2000-03-24",
+        "ratio": "2:1",
+        "preSplitPrice": 80.06,
+        "postSplitPrice": 40.03
+      },
+      {
+        "date": "1999-03-23",
+        "ratio": "2:1",
+        "preSplitPrice": 79.5,
+        "postSplitPrice": 39.75
+      },
+      {
+        "date": "1998-03-20",
+        "ratio": "2:1",
+        "preSplitPrice": 38.78,
+        "postSplitPrice": 19.39
+      },
+      {
+        "date": "1996-09-17",
+        "ratio": "2:1",
+        "preSplitPrice": 20.88,
+        "postSplitPrice": 10.44
+      }
+    ],
+    "source": "Cisco Systems Investor Relations, S&P Global Market Intelligence"
+  },
+  "oracle-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2000-03-24",
+        "ratio": "2:1",
+        "preSplitPrice": 37.5,
+        "postSplitPrice": 18.75
+      },
+      {
+        "date": "1999-03-19",
+        "ratio": "2:1",
+        "preSplitPrice": 30.13,
+        "postSplitPrice": 15.06
+      },
+      {
+        "date": "1998-02-18",
+        "ratio": "2:1",
+        "preSplitPrice": 24.44,
+        "postSplitPrice": 12.22
+      }
+    ],
+    "source": "Oracle Corporation Investor Relations, Yahoo Finance Historical Data"
+  },
+  "walmart-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "1999-03-17",
+        "ratio": "2:1",
+        "preSplitPrice": 55.38,
+        "postSplitPrice": 27.69
+      },
+      {
+        "date": "1993-03-17",
+        "ratio": "2:1",
+        "preSplitPrice": 14.44,
+        "postSplitPrice": 7.22
+      },
+      {
+        "date": "1987-06-16",
+        "ratio": "2:1",
+        "preSplitPrice": 11.38,
+        "postSplitPrice": 5.69
+      }
+    ],
+    "source": "Walmart Inc. Investor Relations, Wall Street Journal Historical Data"
+  },
+  "home-depot-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2022-05-17",
+        "ratio": "1:1",
+        "preSplitPrice": 298.1,
+        "postSplitPrice": 298.1
+      },
+      {
+        "date": "2002-04-23",
+        "ratio": "2:1",
+        "preSplitPrice": 48.5,
+        "postSplitPrice": 24.25
+      },
+      {
+        "date": "1999-04-20",
+        "ratio": "2:1",
+        "preSplitPrice": 53.38,
+        "postSplitPrice": 26.69
+      },
+      {
+        "date": "1993-04-20",
+        "ratio": "2:1",
+        "preSplitPrice": 17.38,
+        "postSplitPrice": 8.69
+      }
+    ],
+    "source": "Home Depot Investor Relations, Bloomberg Historical Data"
+  },
+  "coca-cola-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2012-08-10",
+        "ratio": "2:1",
+        "preSplitPrice": 38.3,
+        "postSplitPrice": 19.15
+      },
+      {
+        "date": "1996-05-14",
+        "ratio": "2:1",
+        "preSplitPrice": 45.63,
+        "postSplitPrice": 22.81
+      },
+      {
+        "date": "1990-05-16",
+        "ratio": "3:1",
+        "preSplitPrice": 43.5,
+        "postSplitPrice": 14.5
+      },
+      {
+        "date": "1986-06-16",
+        "ratio": "2:1",
+        "preSplitPrice": 22.5,
+        "postSplitPrice": 11.25
+      }
+    ],
+    "source": "Coca-Cola Company Investor Relations, S&P Capital IQ"
+  },
+  "pepsi-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "1996-05-16",
+        "ratio": "2:1",
+        "preSplitPrice": 34.88,
+        "postSplitPrice": 17.44
+      },
+      {
+        "date": "1990-05-17",
+        "ratio": "3:1",
+        "preSplitPrice": 42.5,
+        "postSplitPrice": 14.17
+      },
+      {
+        "date": "1985-06-14",
+        "ratio": "2:1",
+        "preSplitPrice": 21.88,
+        "postSplitPrice": 10.94
+      }
+    ],
+    "source": "PepsiCo Investor Relations, NASDAQ Historical Records"
+  },
+  "netflix-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2015-07-15",
+        "ratio": "7:1",
+        "preSplitPrice": 89.22,
+        "postSplitPrice": 12.74
+      },
+      {
+        "date": "2004-02-25",
+        "ratio": "2:1",
+        "preSplitPrice": 43.5,
+        "postSplitPrice": 21.75
+      }
+    ],
+    "source": "Netflix Inc. Investor Relations, Yahoo Finance Historical Data"
+  },
+  "adobe-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2005-02-11",
+        "ratio": "2:1",
+        "preSplitPrice": 34.5,
+        "postSplitPrice": 17.25
+      },
+      {
+        "date": "2000-04-18",
+        "ratio": "2:1",
+        "preSplitPrice": 53.44,
+        "postSplitPrice": 26.72
+      },
+      {
+        "date": "1999-03-18",
+        "ratio": "2:1",
+        "preSplitPrice": 31.13,
+        "postSplitPrice": 15.56
+      }
+    ],
+    "source": "Adobe Inc. Investor Relations, Bloomberg Historical Data"
+  },
+  "paypal-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2015-07-20",
+        "ratio": "1:1",
+        "preSplitPrice": 36.5,
+        "postSplitPrice": 36.5
+      }
+    ],
+    "source": "PayPal Holdings Investor Relations, S&P Global Market Intelligence"
+  },
+  "qualcomm-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2000-03-20",
+        "ratio": "2:1",
+        "preSplitPrice": 96.38,
+        "postSplitPrice": 48.19
+      },
+      {
+        "date": "1999-03-22",
+        "ratio": "2:1",
+        "preSplitPrice": 87.5,
+        "postSplitPrice": 43.75
+      },
+      {
+        "date": "1998-03-23",
+        "ratio": "2:1",
+        "preSplitPrice": 39.38,
+        "postSplitPrice": 19.69
+      }
+    ],
+    "source": "Qualcomm Incorporated Investor Relations, NASDAQ Historical Records"
+  },
+  "starbucks-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2001-04-02",
+        "ratio": "2:1",
+        "preSplitPrice": 32.5,
+        "postSplitPrice": 16.25
+      },
+      {
+        "date": "1999-04-19",
+        "ratio": "2:1",
+        "preSplitPrice": 43.38,
+        "postSplitPrice": 21.69
+      },
+      {
+        "date": "1996-03-18",
+        "ratio": "2:1",
+        "preSplitPrice": 17.38,
+        "postSplitPrice": 8.69
+      }
+    ],
+    "source": "Starbucks Corporation Investor Relations, Wall Street Journal Historical Data"
+  },
+  "costco-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2000-05-24",
+        "ratio": "2:1",
+        "preSplitPrice": 58.5,
+        "postSplitPrice": 29.25
+      },
+      {
+        "date": "1997-05-20",
+        "ratio": "2:1",
+        "preSplitPrice": 44.38,
+        "postSplitPrice": 22.19
+      },
+      {
+        "date": "1994-06-17",
+        "ratio": "2:1",
+        "preSplitPrice": 22.88,
+        "postSplitPrice": 11.44
+      }
+    ],
+    "source": "Costco Wholesale Corporation Investor Relations, S&P Capital IQ"
+  },
+  "mastercard-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "2014-01-28",
+        "ratio": "10:1",
+        "preSplitPrice": 768.5,
+        "postSplitPrice": 76.85
+      }
+    ],
+    "source": "Mastercard Incorporated Investor Relations, Bloomberg Historical Data"
+  },
+  "american-express-stock-split-calculator": {
+    "splits": [
+      {
+        "date": "1998-05-15",
+        "ratio": "3:1",
+        "preSplitPrice": 72.5,
+        "postSplitPrice": 24.17
+      },
+      {
+        "date": "1994-05-16",
+        "ratio": "2:1",
+        "preSplitPrice": 37.63,
+        "postSplitPrice": 18.81
+      },
+      {
+        "date": "1987-06-15",
+        "ratio": "2:1",
+        "preSplitPrice": 24.38,
+        "postSplitPrice": 12.19
+      }
+    ],
+    "source": "American Express Company Investor Relations, NASDAQ Historical Records"
+  }
+}
