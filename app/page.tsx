@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Calculator } from '@/components/calculator';
 import { ArrowRight, DollarSign, BarChart2, Users, Calculator as CalcIcon, TrendingUp } from 'lucide-react';

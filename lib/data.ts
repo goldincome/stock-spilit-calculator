@@ -34,3 +34,10 @@ export async function getCompanyData(slug: string) {
   const companies = await getAllCompanies();
   return companies.find((company) => company.slug === cleanSlug);
 }
+
+export async function searchCompanies(query: string, companies: any[]) {
+  const lowercaseQuery = query.toLowerCase();
+  return companies.filter((company) => {
+    return company.name.toLowerCase().includes(lowercaseQuery) || company.symbol.toLowerCase().includes(lowercaseQuery);
+  });
+}

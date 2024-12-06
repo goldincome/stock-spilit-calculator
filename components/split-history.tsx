@@ -32,11 +32,15 @@ export function SplitHistory({ companyName, splits = [], source }: SplitHistoryP
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
             {splits.map((split, index) => (
-              <tr key={index}>
+              <tr key={split.date} className="bg-white">
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{split.date}</td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{split.ratio}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${split.preSplitPrice?.toFixed(2)}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${split.postSplitPrice?.toFixed(2)}</td>
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                  {split.preSplitPrice ? `$${Number(split.preSplitPrice).toFixed(2)}` : '-'}
+                </td>
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                  {split.postSplitPrice ? `$${Number(split.postSplitPrice).toFixed(2)}` : '-'}
+                </td>
               </tr>
             ))}
           </tbody>
