@@ -1,6 +1,15 @@
+'use client';
+
 import { Calculator } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export function Footer() {
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="bg-white border-t">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
@@ -12,7 +21,7 @@ export function Footer() {
           <p className="italic max-w-2xl mx-auto">
             Disclaimer: This calculator is for informational purposes only. Please consult with a qualified financial advisor before making any investment decisions.
           </p>
-          <p> {new Date().getFullYear()} Stock Split Calculator. All rights reserved.</p>
+          <p> {currentYear} Stock Split Calculator. All rights reserved.</p>
         </div>
       </div>
     </footer>

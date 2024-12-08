@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Link from 'next/link';
 import { Calculator } from 'lucide-react';
-import { Footer } from '@/components/footer';
-import { SearchBox } from '@/components/search-box';
+import { Footer } from 'components/footer';
+import { SearchBox } from 'components/search-box';
 
 const inter = Inter({ subsets: ['latin'] });
 
