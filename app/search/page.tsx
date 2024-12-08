@@ -8,7 +8,7 @@ import { useSearchParams } from 'next/navigation';
 import { CompanyGrid } from 'components/company-grid';
 import { CompanyPagination } from 'components/company-pagination';
 
-const ITEMS_PER_PAGE = 9;
+const ITEMS_PER_PAGE = 6;
 
 function SearchPage() {
   const searchParams = useSearchParams();
