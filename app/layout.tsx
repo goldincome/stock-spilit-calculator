@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Calculator } from 'lucide-react';
 import { Footer } from 'components/footer';
 import { SearchBox } from 'components/search-box';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap', adjustFontFallback: false });
 
@@ -27,6 +28,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-BBGBRRSPJR"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-BBGBRRSPJR');
+          `}
+        </Script>
+      </head>
       <body className={inter.className}>
         <div className="min-h-screen bg-gray-50">
           <header className="bg-white shadow-sm">
