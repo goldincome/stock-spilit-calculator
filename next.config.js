@@ -5,6 +5,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true
   },
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
   //reactStrictMode: true,   webpack: (config, { isServer }) => {     if (!isServer) {       config.resolve.fallback.fs = false     }      return config   },
   //experimental: {
    // missingSuspenseWithCSRBailout: false,
