@@ -10,7 +10,7 @@ import { CompanyPagination } from 'components/company-pagination';
 
 const ITEMS_PER_PAGE = 6;
 
-function SearchPage() {
+function SearchContent() {
   const searchParams = useSearchParams();
   const [companies, setCompanies] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
@@ -36,10 +36,7 @@ function SearchPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4">Search Companies</h1>
-      <Suspense fallback={<div>Loading...</div>}>
-        <SearchBox />
-      </Suspense>
-
+      <SearchBox />
       <div className="mt-8 mb-12">
         <CompanyGrid companies={searchResults.slice(0, ITEMS_PER_PAGE)} />
         <CompanyPagination companies={searchResults} itemsPerPage={ITEMS_PER_PAGE} totalPages={totalPages} />
@@ -48,6 +45,12 @@ function SearchPage() {
   );
 }
 
-export default SearchPage;
+function SearchPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SearchContent />
+    </Suspense>
+  );
+}
 
-export const dynamic = 'force-dynamic';
+export default SearchPage;

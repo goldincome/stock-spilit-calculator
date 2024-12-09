@@ -65,7 +65,7 @@ export async function generateStaticParams() {
   }));
 
   // Add a param for favicon
-  params.push({ company: 'favicon.svg' });
+  params.push({ company: 'favicon.ico' });
 
   return params;
 }

@@ -6,7 +6,7 @@ import { Calculator } from 'lucide-react';
 import { Footer } from 'components/footer';
 import { SearchBox } from 'components/search-box';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'], display: 'swap', adjustFontFallback: false });
 
 export const metadata: Metadata = {
   title: 'Stock Split Calculator',
