@@ -8,9 +8,11 @@ import { StockSplitChart } from '@/components/stock-split-chart';
 export const metadata: Metadata = {
   title: 'Stock Split Calculator | Calculate Your Shares After Stock Splits',
   description: 'Free online stock split calculator. Calculate your shares and value after stock splits, view historical split data, and get insights into future splits.',
+
   alternates: {
     canonical: '/'
   },
+
   robots: {
     index: true,
     follow: true,
@@ -20,11 +22,14 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
+
   other: {
     'X-Robots-Tag': 'index, follow',
   },
+
   keywords: 'Stock Split Calculator, Share Split Calculator, Stock Split History, Stock Split Analysis, Stock Split Tool, Share Split Analysis, Stock Split Tracker',
   publisher: 'Stock Split Calculator',
+
   openGraph: {
     title: 'Stock Split Calculator',
     description: 'Calculate your shares and value after stock splits. View historical split data and get insights into future splits.',
@@ -32,6 +37,7 @@ export const metadata: Metadata = {
     siteName: 'Stock Split Calculator',
     type: 'website'
   },
+
   twitter: {
     card: 'summary',
     title: 'Stock Split Calculator',
@@ -368,77 +374,81 @@ export default async function Home() {
                 <h3 className="text-xl font-semibold text-blue-800">What are the benefits of a stock split for a company?</h3>
                 <p className="text-gray-700">
                   Companies benefit from stock splits in several ways:
-                  <ul className="list-disc ml-5 mt-2 space-y-1">
-                    <li>Increased market liquidity and trading volume</li>
-                    <li>Broader investor accessibility</li>
-                    <li>Enhanced market perception and visibility</li>
-                    <li>Potential inclusion in price-weighted indices</li>
-                    <li>Greater appeal to retail investors</li>
-                  </ul>
                 </p>
+                <ul className="list-disc ml-5 mt-2 space-y-1">
+                  <li>Increased market liquidity and trading volume</li>
+                  <li>Broader investor accessibility</li>
+                  <li>Enhanced market perception and visibility</li>
+                  <li>Potential inclusion in price-weighted indices</li>
+                  <li>Greater appeal to retail investors</li>
+                </ul>
+                
               </div>
 
               <div className="space-y-2">
                 <h3 className="text-xl font-semibold text-blue-800">How do stock splits affect dividends?</h3>
                 <p className="text-gray-700">
                   Stock splits affect dividends proportionally:
-                  <ul className="list-disc ml-5 mt-2 space-y-1">
-                    <li>The dividend per share is reduced by the split ratio</li>
-                    <li>Total dividend payout remains the same</li>
-                    <li>Example: In a 2:1 split, a $1 dividend becomes $0.50 per share, but you own twice as many shares</li>
-                  </ul>
                 </p>
+                <ul className="list-disc ml-5 mt-2 space-y-1">
+                  <li>The dividend per share is reduced by the split ratio</li>
+                  <li>Total dividend payout remains the same</li>
+                  <li>Example: In a 2:1 split, a $1 dividend becomes $0.50 per share, but you own twice as many shares</li>
+                </ul>
+
               </div>
 
               <div className="space-y-2">
                 <h3 className="text-xl font-semibold text-blue-800">Do I need to take any action when a stock split occurs?</h3>
                 <p className="text-gray-700">
                   No action is typically required. Your brokerage will automatically:
-                  <ul className="list-disc ml-5 mt-2 space-y-1">
-                    <li>Adjust your share count</li>
-                    <li>Update the share price</li>
-                    <li>Maintain your total investment value</li>
-                  </ul>
                 </p>
+                <ul className="list-disc ml-5 mt-2 space-y-1">
+                  <li>Adjust your share count</li>
+                  <li>Update the share price</li>
+                  <li>Maintain your total investment value</li>
+                </ul>
+
               </div>
             </div>
 
             <div className="space-y-6">
               <div className="space-y-2">
                 <h3 className="text-xl font-semibold text-blue-800">What's the difference between forward and reverse splits?</h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700"></p>
                   <ul className="list-disc ml-5 mt-2 space-y-1">
                     <li>Forward split: Increases shares and decreases price (e.g., 2:1)</li>
                     <li>Reverse split: Decreases shares and increases price (e.g., 1:4)</li>
                     <li>Both maintain the same total market value</li>
                     <li>Different purposes: Growth vs. maintaining exchange requirements</li>
                   </ul>
-                </p>
               </div>
 
               <div className="space-y-2">
                 <h3 className="text-xl font-semibold text-blue-800">How do stock splits affect my cost basis?</h3>
                 <p className="text-gray-700">
                   Your cost basis adjusts proportionally:
-                  <ul className="list-disc ml-5 mt-2 space-y-1">
-                    <li>Per-share cost basis is divided by the split ratio</li>
-                    <li>Total cost basis remains unchanged</li>
-                    <li>Important for tax purposes and calculating gains/losses</li>
-                  </ul>
                 </p>
+                <ul className="list-disc ml-5 mt-2 space-y-1">
+                  <li>Per-share cost basis is divided by the split ratio</li>
+                  <li>Total cost basis remains unchanged</li>
+                  <li>Important for tax purposes and calculating gains/losses</li>
+                </ul>
+
               </div>
 
               <div className="space-y-2">
                 <h3 className="text-xl font-semibold text-blue-800">Can stock splits affect my taxes?</h3>
                 <p className="text-gray-700">
                   Stock splits are generally not taxable events:
-                  <ul className="list-disc ml-5 mt-2 space-y-1">
-                    <li>No immediate tax implications</li>
-                    <li>Cost basis is adjusted proportionally</li>
-                    <li>Holding period remains unchanged</li>
-                    <li>Capital gains/losses are only realized upon sale</li>
-                  </ul>
                 </p>
+                <ul className="list-disc ml-5 mt-2 space-y-1">
+                  <li>No immediate tax implications</li>
+                  <li>Cost basis is adjusted proportionally</li>
+                  <li>Holding period remains unchanged</li>
+                  <li>Capital gains/losses are only realized upon sale</li>
+                </ul>
+
               </div>
             </div>
           </div>

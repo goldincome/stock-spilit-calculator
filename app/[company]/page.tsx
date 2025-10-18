@@ -9,19 +9,20 @@ import { RelatedCompanies } from '@/components/related-companies';
 import { getCompanyData, getAllCompanies } from '@/lib/data';
 
 interface Props {
-  params: { company: string }
+  params: Promise<{ company: string }>
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const company = await getCompanyData(params.company);
-  
+
   if (!company) {
     return {
       title: 'Company Not Found',
       description: 'The requested company calculator could not be found.',
     };
   }
-  
+
   return {
     title: `${company.name} Stock Split Calculator | Track ${company.name}'s Stock Splits Easily`,
     description: `Use our ${company.name} Stock Split Calculator to understand your investment better. Learn about ${company.name}'s stock split history and calculate your shares accurately.`,
@@ -70,9 +71,10 @@ export async function generateStaticParams() {
   return params;
 }
 
-export default async function CompanyPage({ params }: Props) {
+export default async function CompanyPage(props: Props) {
+  const params = await props.params;
   const company = await getCompanyData(params.company);
-  
+
   if (!company) {
     notFound();
   }
@@ -102,7 +104,7 @@ export default async function CompanyPage({ params }: Props) {
   const averageSplitPrice = hasHistory
     ? company.splits.reduce((acc, split) => acc + split.preSplitPrice, 0) / company.splits.length
     : 0;
-  
+
   // Calculate time between splits if there are at least 2 splits
   let averageDaysBetweenSplits = 0;
   if (company.splits.length >= 2) {

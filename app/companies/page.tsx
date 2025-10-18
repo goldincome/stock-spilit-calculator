@@ -8,9 +8,11 @@ const ITEMS_PER_PAGE = 9;
 export const metadata: Metadata = {
   title: 'Stock Companies | Stock Split Calculator',
   description: 'Browse our comprehensive list of stock companies. Find and analyze stock splits for major companies listed on NYSE, NASDAQ, and other exchanges.',
+
   alternates: {
     canonical: '/companies'
   },
+
   robots: {
     index: true,
     follow: true,
@@ -20,9 +22,11 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
+
   other: {
     'X-Robots-Tag': 'index, follow',
   },
+
   keywords: 'Stock Company, Listed Companies, Stock Exchange Companies, Company Stock Splits, Stock Market Companies, NYSE Stocks, NASDAQ Stocks',
   publisher: 'Stock Split Calculator'
 };

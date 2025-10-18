@@ -1,6 +1,7 @@
-import { NextResponse } from 'next/server';
+import { NextResponse } from "next/server";
 import fs from 'fs';
 import path from 'path';
+export const dynamic = "force-static"; // 👈 Add this line at the top
 
 export async function GET() {
   const companiesPath = path.join(process.cwd(), 'data', 'generated.json');

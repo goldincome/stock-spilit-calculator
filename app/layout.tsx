@@ -12,10 +12,13 @@ const inter = Inter({ subsets: ['latin'], display: 'swap', adjustFontFallback: f
 export const metadata: Metadata = {
   title: 'Stock Split Calculator',
   description: 'Calculate the impact of stock splits on your investment',
+
   icons: {
     icon: '/favicon.svg',
   },
+
   metadataBase: new URL('https://stocksplitcalculator.xyz'),
+
   alternates: {
     canonical: '/'
   }
